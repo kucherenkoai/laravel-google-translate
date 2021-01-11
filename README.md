@@ -17,14 +17,14 @@ In this config file we need add new Laravel Google Translate Provider form libra
     ...
     ...
     ...
-    Kucherenkoai\LaravelGoogleTranslate\LaravelGoogleTranslateProvider::class <-- new row in providers side 
+    Kucherenkoai\LaravelGoogleTranslate\Providers\LaravelGoogleTranslateProvider::class <-- new row in providers side 
 ];
 ````
 
 #### Composer publish config
 
 ```
-php artisan vendor:publish --provider="Kucherenkoai\LaravelGoogleTranslate\LaravelGoogleTranslateProvider"
+php artisan vendor:publish --provider="Kucherenkoai\LaravelGoogleTranslate\Providers\LaravelGoogleTranslateProvider"
 ```
 
 After publish you will have new config file `/config/laravelGoogleTranslate.php`

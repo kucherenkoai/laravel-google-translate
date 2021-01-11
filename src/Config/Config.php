@@ -11,13 +11,12 @@ class Config implements ConfigInterface {
 
     public function __construct()
     {
-        $this->translateConfig = ['key' => config('LaravelGoogleTranslate.translate_key',null)];
-        $this->textToSpeechConfig = ['credentials' => config('LaravelGoogleTranslate.text_to_speech_credentials',null)];
+        $this->translateConfig = ['key' => config('laravelGoogleTranslate.translate_key',null)];
+        $this->textToSpeechConfig = ['credentials' => config('laravelGoogleTranslate.text_to_speech_credentials',null)];
     }
 
     public function getTranslate(): array
     {
-
         return $this->translateConfig;
     }
 

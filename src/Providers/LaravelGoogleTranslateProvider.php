@@ -3,7 +3,6 @@
 namespace Kucherenkoai\LaravelGoogleTranslate\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use WebSocketsZMQ\Commands\WebSocketServer;
 
 class LaravelGoogleTranslateProvider extends ServiceProvider
 {
