@@ -1,0 +1,31 @@
+{
+  "name": "kucherenkoai/laravel-google-translate"
+, "type": "library"
+, "description": "PHP Laravel Google translate library"
+, "keywords": ["laravel", "google", "translate", "google-translate", "laravel-google-translate","PHP"]
+, "homepage": "https://github.com/kucherenkoai"
+, "license": "MIT"
+, "authors": [
+    {
+     "name": "Anton Kucherenko"
+    , "email": "a.kucherenko1991@gmail.com"
+    , "role": "Developer"
+    }
+]
+, "support": {
+    "issues": "https://github.com/kucherenkoai"
+}
+,"minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Kucherenkoai\\": "src/"
+        }
+    }
+, "require": {
+    "google/cloud-text-to-speech": "^1.2",
+    "google/cloud-translate": "^1.7"
+}
+, "require-dev": {
+    "phpunit/phpunit": "~4.8"
+}
+}
